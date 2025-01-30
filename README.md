@@ -1,20 +1,39 @@
-Project Name: Content Performance Analysis
+# Content Performance Analysis  
 
-Description:
-This project analyzes user reactions across different content categories to identify top-performing content and areas for improvement. Using data merging, cleaning, and visualization techniques, we uncover key insights about engagement trends. The analysis helps refine content strategy by optimizing high-performing categories and addressing weak spots.
+## 📌 Project Overview  
+This project aims to analyze user reactions to different content categories by merging datasets and applying data analytics techniques. **Data preparation and cleaning were performed in Excel**, and analysis was conducted in Python using Pandas, NumPy, and visualization libraries.  
 
-Key Features:
-✅ Data Merging & Cleaning
+## 📂 Dataset  
+The project uses three datasets:  
+- **Reactions Table:** User reactions to content (likes, dislikes, etc.).  
+- **Content Table:** Metadata about the content (title, category, etc.).  
+- **Reaction Types Table:** Types of reactions recorded.  
 
-✅ Exploratory Data Analysis (EDA)
+## 🔄 Process  
+1. **Data Preparation & Cleaning (Excel)**  
+   - Merged datasets using VLOOKUP.  
+   - Removed duplicates, handled missing values, and standardized categories.  
+2. **Exploratory Data Analysis (Python)**  
+   - Identified trends, engagement patterns, and reaction distributions.  
+3. **Visualization & Insights (Python - Matplotlib, Seaborn)**  
+   - Created bar charts, pie charts, histograms, scatter plots, and box plots.  
+4. **Key Findings & Recommendations**  
+   - Provided data-driven content strategy improvements.  
 
-✅ Top 5 Performing Categories Identification
+## 📊 Key Insights  
+✅ **Technology Leads (35%+ Engagement)** → Expand tech-related content.  
+⚠️ **Finance Has High Negative Reactions** → Improve clarity & user experience.  
+📚 **Education Shows Inconsistent Scores** → Standardize content quality.  
+🔎 **Health & Lifestyle Have Hidden Opportunities** → Replicate successful content styles.  
+📊 **80/20 Rule Applies** → Focus on **high-impact content** over quantity.  
 
-✅ Data Visualizations (Bar, Pie, Histogram, Scatter, Box Plot)
+## 🛠️ Tech Stack  
+- **Excel** (Data Cleaning & Preparation)  
+- **Python** (Pandas, NumPy)  
+- **Visualization** (Matplotlib, Seaborn)  
+- **Jupyter Notebook**  
 
-✅ Insights & Recommendations for Content Strategy
-
-📊 Tech Stack: Python (Pandas, Matplotlib, Seaborn)
-
-📁 Files: Dataset, Python Scripts, Report
-
+## 🚀 How to Use  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/yourusername/content-performance-analysis.git
