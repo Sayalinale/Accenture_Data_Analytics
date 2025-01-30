@@ -33,7 +33,3 @@ The project uses three datasets:
 - **Visualization** (Matplotlib, Seaborn)  
 - **Jupyter Notebook**  
 
-## 🚀 How to Use  
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/yourusername/content-performance-analysis.git
